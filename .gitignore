@@ -1,0 +1,56 @@
+# ==========================================
+# Xcode & Swift Project .gitignore Template
+# ==========================================
+
+## Build generated artifacts
+build/
+DerivedData/
+
+## User-specific settings (DO NOT share personal layout/state)
+userdata/
+xcuserdata/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcuserstate
+
+## Source Control and Workspace State
+*.xccheckout
+*.xcscmblueprint
+*.moved-aside
+
+## App Packaging and Debug Symbols
+*.ipa
+*.dSYM/
+*.dSYM.zip
+
+## Swift Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+## Swift Package Manager (SPM)
+.build/
+.swiftpm/
+# Uncomment the line below if you choose NOT to commit your package cache
+# Packages/
+
+## Carthage
+Carthage/Build/
+
+## CocoaPods
+# It is generally recommended to keep Pods/ in source control so the project 
+# builds immediately after cloning. Uncomment if you prefer to exclude them:
+# Pods/
+
+## macOS Operating System files
+/*.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+
+# Local Folders
+Experiments/
